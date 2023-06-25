@@ -11,7 +11,7 @@ function Hero() {
           I take pride in creating functional and preformant complex web applications.
           Thank you for taking the time to review my portfolio.
         </p>
-        <div id='resume-btn' style={{width: 180, height: 50, background: 'linear-gradient(270deg, #13ADC7 0%, #6978D1 67%, #945DD6 100%)', borderRadius: 83}}>RESUME</div>
+        <div id='resume-btn' style={{width: 170, height: 45, background: 'linear-gradient(270deg, #13ADC7 0%, #6978D1 67%, #945DD6 100%)', borderRadius: 83}}>RESUME</div>
       </div>
       <div className="right-container">
         <div style={{width: 758, height: 758, position: 'relative', opacity: 0.50}}>
