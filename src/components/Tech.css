@@ -54,3 +54,19 @@
   border-radius: 83px;
   background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
 }
+
+.rect3 {
+  transform: translateY(-30px);
+  width: 25%;
+  height: 30px;
+  border-radius: 83px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+}
+
+.rect4 {
+  transform: translateY(-30px);
+  width: 50%;
+  height: 30px;
+  border-radius: 83px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+}

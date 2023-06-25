@@ -7,10 +7,10 @@ function AdditionalTech() {
       <h1>Addtional Technologies and Skills</h1>
       <ul className='grid-container'>
         <li>Git Hub</li>
-        <li>Git Hub</li>
-        <li>Git Hub</li>
-        <li>Git Hub</li>
-        <li>Git Hub</li>
+        <li>Git VCS</li>
+        <li>WordPress</li>
+        <li>NPM</li>
+        <li>Asynchronous Code</li>
       </ul>
     </section>
   )
