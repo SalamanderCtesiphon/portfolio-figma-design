@@ -1,0 +1,39 @@
+.group20 {
+  margin-top: 100px;
+}
+
+.line-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#time-line {
+  width: 60vw;
+  height: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bullets {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.text-columns {
+  padding-left: 50px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 75vw;
+}
+
+.text-columns > p {
+  width: 10vw;
+  margin: 0 30px;
+}
