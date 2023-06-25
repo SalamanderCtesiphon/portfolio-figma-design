@@ -30,4 +30,26 @@ header {
 .header-container-3 > a > img {
   height: 25px;
   margin: 0 20px;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
 }
+
+.header-container-3 > a > img:hover {
+  transform: scale(1.3);
+}
+
+.link {
+  position: relative;
+  padding-bottom: 10px;
+  border: 1px solid transparent;
+  transition-property: color border-bottom;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.link:hover {
+  border-bottom: 1px solid whitesmoke;
+  color: #13acc778;
+}
+
+
