@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+html {
+  background: #0F1624; 
+}
+
 .App {
-  min-height: 100vh;
+  height: 100%;
   font-family: 'Oswald', sans-serif;
   font-family: 'Ubuntu', sans-serif;
-  background: #0F1624; 
+  
   color: #FFFFFF;
   display: flex;
   flex-direction: column;

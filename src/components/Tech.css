@@ -1,0 +1,56 @@
+.tech-section {
+  min-height: 100vh;
+  margin-top: 100px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech-section > h1 {
+  text-align: left;
+  width: 100%;
+  padding-left: 40px;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+.skills {
+  width: 60%;
+  height: 100px;
+  padding: 60px 0;
+}
+
+.text-box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.skill-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.skill-level {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.rect1 {
+  width: 100%;
+  height: 30px;
+  border-radius: 83px;
+  background: #162950;
+}
+
+.rect2 {
+  transform: translateY(-30px);
+  width: 75%;
+  height: 30px;
+  border-radius: 83px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+}

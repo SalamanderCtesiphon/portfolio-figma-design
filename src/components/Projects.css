@@ -2,8 +2,11 @@
   margin-top: 200px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
+  height: auto;
   padding: 40px 0;
+  background-color: #0F1624;
 }
 
 .projects > h1 {
@@ -13,6 +16,7 @@
   text-align: left;
   margin: 40px 0;
 }
+
 
 .projects-container {
   width: 100%;
@@ -27,8 +31,48 @@
   width: 500px;
   height: 650px; 
   background: #0F1624; 
+  padding: 20px 0;
   box-shadow: 0px 0px 12px white;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
   margin: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.card > img {
+  height: auto;
+  width: 460px;
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 10px;
+}
+
+.color-bar {
+  width: 300px;
+  height: 4px;
+  border-radius: 83px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+}
+
+.card > p {
+  padding: 30px;
+  color: rgb(136, 136, 136);
+}
+
+.btn-container {
+  width: 86%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.card-btn {
+  width: 140px;
+  height: 40px; 
+  border-radius: 83px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  color: white;
 }
