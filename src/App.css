@@ -5,13 +5,15 @@
 }
 
 .App {
- 
-  text-align: center;
   min-height: 100vh;
   font-family: 'Oswald', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   background: #0F1624; 
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
