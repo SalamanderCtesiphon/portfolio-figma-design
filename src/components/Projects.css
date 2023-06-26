@@ -60,6 +60,12 @@
   transition-timing-function: ease-in-out;
 }
 
+@media (max-width: 600px) {
+  .card {
+    opacity: 100%;
+  }
+}
+
 .card:hover {
   opacity: 100%;
 }
@@ -75,7 +81,7 @@
   object-fit: fill;
 
   width: 460px;
-  border: 1px solid rgb(143, 143, 143);
+  border: 1px solid rgb(185, 185, 185);
   border-radius: 10px;
   
 }
@@ -101,8 +107,9 @@
 }
 
 .card > p {
+  font-family: Arial, Helvetica, sans-serif;
   padding: 30px;
-  color: rgb(136, 136, 136);
+  color: rgba(234, 234, 234, 0.887);
 }
 
 .btn-container {

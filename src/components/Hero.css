@@ -29,6 +29,7 @@ section {
 }
 
 .hero-title {
+  color: #6dafff;
   width: 60%;
   text-align: left;
   font-size: 50px;
@@ -42,11 +43,12 @@ section {
 }
 
 .hero-subtitle {
+  font-family: sans-serif;
   width: 60%;
   text-align: left;
   font-size: 30px;
   margin: 10px 0;
-  color: rgb(171, 171, 171);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 @media (max-width: 600px) {
@@ -56,10 +58,11 @@ section {
 }
 
 .left-container > p {
+  font-family: Arial, Helvetica, sans-serif;
   width: 60%;
   text-align: left;
   margin: 10px 0;
-  color: rgb(167, 167, 167);
+  color: rgba(255, 255, 255, 0.759);
 }
 
 @media (max-width: 600px) {
@@ -74,8 +77,8 @@ section {
   align-items: center;
   justify-content: center;
   margin: 20px 0;
-  width: 170px;
-  height: 45px;
+  width: 135px;
+  height: 35px;
   background: linear-gradient(270deg, #13ADC7 0%, #6978D1 67%, #945DD6 100%);
   border-radius: 83px;
 }
