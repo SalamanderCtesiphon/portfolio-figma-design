@@ -46,7 +46,7 @@ function Projects() {
           <img id='rest' src={resturant} alt="screenshot" />
           <h2>Resturant Page</h2>
           <div className="color-bar"></div>
-          <p>This is my previous portfolio, that I built from scratch using ReactJS. It uses many animations and transformations. It is hosting on firebase hosting and I think it demonstrates my skills with vanilla CSS. And my ability to deploy a fully functional website while utilizing version control and industry standard best-practices.</p>
+          <p>This is a single page informational landing page for a hypothetical resturant.</p>
           <div className="btn-container">
             <button className='card-btn'><a href="https://salamanderctesiphon.github.io/resturant-page-project/">Live Site</a></button>
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/resturant-page-project">Git Repo</a></button>
