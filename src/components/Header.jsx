@@ -13,9 +13,9 @@ function Header() {
         <h2 className="header-title">Portfolio</h2>
       </div>
       <div className="header-container-2">
-        <a href="#" className="link"><h2>Projects</h2></a>
-        <a href="#" className="link"><h2>Technologies</h2></a>
-        <a href="#" className="link"><h2>About</h2></a>
+        <a href="#projects-anchor" className="link"><h2>Projects</h2></a>
+        <a href="#technology-anchor" className="link"><h2>Technologies</h2></a>
+        <a href="#about-anchor" className="link"><h2>About</h2></a>
       </div>
       <div className="header-container-3">
         <a href="#" className="logo-link"><img src={gitHub} alt="gitHub" /></a>

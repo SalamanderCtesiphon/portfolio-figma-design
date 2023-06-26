@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
   return (
-    <section className="projects">
+    <section className="projects" id='about-anchor'>
       <h1>About</h1>
       <div className="group20">
         <div className="line-box">

@@ -7,7 +7,7 @@ import resturant from '../assests/images/resturant-page.png'
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id='projects-anchor'>
       <h1>Projects</h1>
       <div className="projects-container">
         <div className='card'>
