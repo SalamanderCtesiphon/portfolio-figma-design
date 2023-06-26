@@ -52,8 +52,10 @@ section {
   overflow: hidden;
 }
 
-#resume-btn {
+#resume-btn > a {
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 2px;
+  color: inherit;
+  text-decoration: none;
 }

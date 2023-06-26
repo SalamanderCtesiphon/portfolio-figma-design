@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import resume from '../assests/images/shannonresume.pdf'
 
 function Hero() {
   return (
@@ -11,7 +12,7 @@ function Hero() {
           I take pride in creating functional and preformant complex web applications.
           Thank you for taking the time to review my portfolio.
         </p>
-        <button id='resume-btn'>Resume</button>
+        <button id='resume-btn'><a href={resume}>Resume</a></button>
       </div>
       <div className="right-container">
         <div style={{width: 758, height: 758, position: 'relative', opacity: 0.50}}>
