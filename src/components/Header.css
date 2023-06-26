@@ -11,9 +11,20 @@ header {
   align-items: center;
 }
 
+
 .header-container-2 {
   display: flex;
   padding-left: 100px;
+}
+
+@media (max-width: 600px) {
+  .header-container-2 {
+    display: none;
+  }
+
+  header {
+    padding: 6px;
+  }
 }
 
 .header-container-2 > a {

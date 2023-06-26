@@ -23,3 +23,12 @@
   height: 30px;
   margin: 15px;
 }
+
+@media (max-width: 600px) {
+  .footer-container > p {
+    display: none;
+  }
+  .footer-container > p > a {
+    display: none;
+  }
+}

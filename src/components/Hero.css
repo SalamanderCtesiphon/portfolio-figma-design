@@ -3,6 +3,13 @@ section {
   display: flex;
 }
 
+@media (max-width: 600px) {
+  section {
+    flex-direction: column;
+    padding: 6px;
+  }
+}
+
 
 .left-container {
   width: 55%;
@@ -13,6 +20,14 @@ section {
   padding-left: 150px;
 }
 
+@media (max-width: 600px) {
+  .left-container {
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+
 .hero-title {
   width: 60%;
   text-align: left;
@@ -20,19 +35,38 @@ section {
   margin: 20px 0;
 }
 
+@media (max-width: 600px) {
+  .hero-title {
+    width: 90vw;
+  }
+}
+
 .hero-subtitle {
   width: 60%;
   text-align: left;
   font-size: 30px;
   margin: 10px 0;
-  color: rgb(136, 136, 136);
+  color: rgb(171, 171, 171);
+}
+
+@media (max-width: 600px) {
+  .hero-subtitle {
+    width: 90vw;
+  }
 }
 
 .left-container > p {
   width: 60%;
   text-align: left;
   margin: 10px 0;
-  color: rgb(136, 136, 136);
+  color: rgb(167, 167, 167);
+}
+
+@media (max-width: 600px) {
+  .left-container > p {
+    width: 90vw;
+    text-align: left;
+  }
 }
 
 #resume-btn {
@@ -50,6 +84,14 @@ section {
 .right-container {
   width: 50%;
   overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .right-container {
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 #resume-btn > a {

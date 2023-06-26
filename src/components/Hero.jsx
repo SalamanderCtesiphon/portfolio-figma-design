@@ -9,8 +9,8 @@ function Hero() {
         <h1 className="hero-title">Shannon Brookshire</h1>
         <h2 className="hero-subtitle">Web Developer</h2>
         <p>Hi, I am a dedicated and enthusiastic web developer. 
-          I take pride in creating functional and preformant complex web applications.
-          Thank you for taking the time to review my portfolio.
+          I take pride in creating functional and performant complex web applications.
+          Thank you for taking the time to review my portfolio. You can look at my resume by clicking the link below or better yet hop over to my gitHub where I have over 140 repos and more than 3,500 commits.
         </p>
         <button id='resume-btn'><a href={resume}>Resume</a></button>
       </div>

@@ -2,14 +2,18 @@
   margin-top: 100px;
 }
 
-
-
 .line-box {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .line-box {
+    width: 95vw;
+  }
 }
 
 .dates {
@@ -43,7 +47,23 @@
   width: 75vw;
 }
 
+@media (max-width: 600px) {
+  .text-columns {
+    padding-left: 4px;
+    width: 100vw;
+  }
+}
+
 .text-columns > p {
   width: 10vw;
   margin: 0 30px;
+}
+
+@media (max-width: 600px) {
+  .text-columns > p{
+    letter-spacing: normal;
+    width: 50px;
+    text-align: left;
+    overflow: hidden;
+  }
 }
