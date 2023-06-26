@@ -18,9 +18,9 @@ function Header() {
         <a href="#about-anchor" className="link"><h2>About</h2></a>
       </div>
       <div className="header-container-3">
-        <a href="#" className="logo-link"><img src={gitHub} alt="gitHub" /></a>
-        <a href="#" className="logo-link"><img src={linkdIn} alt="linked in" /></a>
-        <a href="#" className="logo-link"><img src={figma} alt="figma" /></a>
+        <a href="https://github.com/SalamanderCtesiphon" className="logo-link"><img src={gitHub} alt="gitHub" /></a>
+        <a href="https://www.linkedin.com/in/shannon-brookshire-817577265/" className="logo-link"><img src={linkdIn} alt="linked in" /></a>
+        <a href="https://www.figma.com/proto/tQoLIK6tzphStRzUc2jW3U/frontend-web-developer-portfolio-(Community)?node-id=1-2" className="logo-link"><img src={figma} alt="figma" /></a>
       </div>
     </header>
   )
