@@ -3,6 +3,7 @@ section {
   display: flex;
 }
 
+
 .left-container {
   width: 55%;
   display: flex;
@@ -39,9 +40,20 @@ section {
   align-items: center;
   justify-content: center;
   margin: 20px 0;
+  width: 170px;
+  height: 45px;
+  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 67%, #945DD6 100%);
+  border-radius: 83px;
 }
+
 
 .right-container {
   width: 50%;
   overflow: hidden;
+}
+
+#resume-btn {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
