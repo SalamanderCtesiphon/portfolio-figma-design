@@ -48,16 +48,6 @@ function Tech() {
         </div>
         <div className="group">
           <div className="text-box">
-            <p className='skill-title'>Node JS</p>
-            <p className='skill-level'>Novice</p>
-          </div>
-          <div className="bars">
-            <div className="rect1"></div>
-            <div className="rect3"></div>
-          </div>
-        </div>
-        <div className="group">
-          <div className="text-box">
             <p className='skill-title'>Figma</p>
             <p className='skill-level'>Novice</p>
           </div>

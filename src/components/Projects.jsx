@@ -3,13 +3,23 @@ import './Projects.css'
 import portfolio from '../assests/images/portfolio.png'
 import coffee from '../assests/images/coffee-site.png'
 import memory from '../assests/images/memory-game.png'
-import resturant from '../assests/images/resturant-page.png'
+import landingPage from '../assests/images/landing-page-screenshot.png'
 
 function Projects() {
   return (
     <section className="projects" id='projects-anchor'>
       <h1>Projects</h1>
       <div className="projects-container">
+      <div className='card'>
+          <img id='rest' src={landingPage} alt="screenshot" />
+          <h2>Figma Design Landing Page</h2>
+          <div className="color-bar"></div>
+          <p>This is a single page informational landing page for a hypothetical business. It was created from a Figma design. And it utilizes advanced vanilla CSS for styling. The site is hosted on Firebase webhosting.</p>
+          <div className="btn-container">
+            <button className='card-btn'><a href="https://salamanderctesiphon.github.io/resturant-page-project/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/resturant-page-project">Git Repo</a></button>
+          </div>
+        </div> 
         <div className='card'>
           <img src={portfolio} alt="screenshot" />
           <h2>Previous Portfolio</h2>
@@ -20,6 +30,8 @@ function Projects() {
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/professional-portfolio">Git Repo</a></button>
           </div>
         </div>
+      </div>
+      <div className="projects-container">
         <div className='card'>
           <img src={coffee} alt="screenshot" />
           <h2>Coffee Wholesale Site</h2>
@@ -30,8 +42,6 @@ function Projects() {
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/coffee-importers">Git Repo</a></button>
           </div>
         </div> 
-      </div>
-      <div className="projects-container">
         <div className='card'>
           <img src={memory} alt="screenshot" />
           <h2>Memory Game</h2>
@@ -42,16 +52,6 @@ function Projects() {
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/memory-card-react-app">Git Repo</a></button>
           </div>
         </div>
-        <div className='card'>
-          <img id='rest' src={resturant} alt="screenshot" />
-          <h2>Resturant Page</h2>
-          <div className="color-bar"></div>
-          <p>This is a single page informational landing page for a hypothetical resturant.</p>
-          <div className="btn-container">
-            <button className='card-btn'><a href="https://salamanderctesiphon.github.io/resturant-page-project/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/resturant-page-project">Git Repo</a></button>
-          </div>
-        </div> 
       </div>
     </section>
   )
