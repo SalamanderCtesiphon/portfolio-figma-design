@@ -72,7 +72,13 @@ section {
   }
 }
 
-#resume-btn {
+.button-holder {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.resume-btn {
   display: flex;
   align-items: center;
   justify-content: center;

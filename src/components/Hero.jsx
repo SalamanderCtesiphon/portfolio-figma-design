@@ -12,7 +12,10 @@ function Hero() {
           I take pride in creating functional and performant complex web applications.
           Thank you for taking the time to review my portfolio. You can look at my resume by clicking the link below or better yet hop over to my gitHub where I have over 140 repos and more than 3,500 commits.
         </p>
-        <button id='resume-btn'><a href={resume}>Resume</a></button>
+        <div className="button-holder">
+          <button className='resume-btn'><a href={resume}>Resume</a></button>
+          <button className='resume-btn'><a href='https://github.com/SalamanderCtesiphon'>GitHub</a></button>
+        </div>
       </div>
       <div className="right-container">
         <div style={{width: 758, height: 758, position: 'relative', opacity: 0.50}}>
