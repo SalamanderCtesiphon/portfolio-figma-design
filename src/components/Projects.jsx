@@ -16,8 +16,8 @@ function Projects() {
           <div className="color-bar"></div>
           <p>This is a single page informational landing page for a hypothetical business. It was created from a Figma design. And it utilizes advanced vanilla CSS for styling. The site is hosted on Firebase webhosting.</p>
           <div className="btn-container">
-            <button className='card-btn'><a href="https://salamanderctesiphon.github.io/resturant-page-project/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/resturant-page-project">Git Repo</a></button>
+            <button className='card-btn'><a href="https://landing-page-1059a.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/landing-pager-figma-design">Git Repo</a></button>
           </div>
         </div> 
         <div className='card'>
