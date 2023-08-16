@@ -29,11 +29,11 @@ function Tech() {
         <div className="group">
           <div className="text-box">
             <p className='skill-title'>JavaScript</p>
-            <p className='skill-level'>Intermediate</p>
+            <p className='skill-level'>Advanced</p>
           </div>
           <div className="bars">
             <div className="rect1"></div>
-            <div className="rect4"></div>
+            <div className="rect2"></div>
           </div>
         </div>
         <div className="group">
@@ -64,6 +64,46 @@ function Tech() {
           <div className="bars">
             <div className="rect1"></div>
             <div className="rect4"></div>
+          </div>
+        </div>
+        <div className="group">
+          <div className="text-box">
+            <p className='skill-title'>Node Package Manager</p>
+            <p className='skill-level'>Intermediate</p>
+          </div>
+          <div className="bars">
+            <div className="rect1"></div>
+            <div className="rect4"></div>
+          </div>
+        </div>
+        <div className="group">
+          <div className="text-box">
+            <p className='skill-title'>Node JS</p>
+            <p className='skill-level'>Intermediate</p>
+          </div>
+          <div className="bars">
+            <div className="rect1"></div>
+            <div className="rect4"></div>
+          </div>
+        </div>
+        <div className="group">
+          <div className="text-box">
+            <p className='skill-title'>Express JS</p>
+            <p className='skill-level'>Novice</p>
+          </div>
+          <div className="bars">
+            <div className="rect1"></div>
+            <div className="rect3"></div>
+          </div>
+        </div>
+        <div className="group">
+          <div className="text-box">
+            <p className='skill-title'>Jest Testing Suite</p>
+            <p className='skill-level'>Novice</p>
+          </div>
+          <div className="bars">
+            <div className="rect1"></div>
+            <div className="rect3"></div>
           </div>
         </div>
       </div>

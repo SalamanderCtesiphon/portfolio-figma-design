@@ -9,7 +9,6 @@ function AdditionalTech() {
         <li>Git Hub</li>
         <li>Git VCS</li>
         <li>WordPress</li>
-        <li>NPM</li>
         <li>Asynchronous Code</li>
       </ul>
     </section>
