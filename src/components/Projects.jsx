@@ -24,7 +24,7 @@ function Projects() {
           <img src={portfolio} alt="screenshot" />
           <h2>Previous Portfolio</h2>
           <div className="color-bar"></div>
-          <p>This is my previous portfolio, that I built from scratch using ReactJS. It uses many animations and transformations. It is hosting on firebase hosting and I think it demonstrates my skills with vanilla CSS. And my ability to deploy a fully functional website while utilizing version control and industry standard best-practices.</p>
+          <p>This is my previous portfolio, that I built from scratch using ReactJS. It uses many custom animations and transformations. It is hosted on firebase hosting and I think it demonstrates my skills with vanilla CSS. And my ability to deploy a fully functional website while utilizing version control and industry standard best-practices.</p>
           <div className="btn-container">
             <button className='card-btn'><a href="https://professional-portfolio-7096f.web.app/">Live Site</a></button>
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/professional-portfolio">Git Repo</a></button>
