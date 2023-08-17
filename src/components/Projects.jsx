@@ -4,6 +4,7 @@ import portfolio from '../assests/images/portfolio.png'
 import coffee from '../assests/images/coffee-site.png'
 import memory from '../assests/images/memory-game.png'
 import landingPage from '../assests/images/landing-page-screenshot.png'
+import alog from '../assests/images/cypher-blog.png'
 
 function Projects() {
   return (
@@ -28,6 +29,28 @@ function Projects() {
           <div className="btn-container">
             <button className='card-btn'><a href="https://professional-portfolio-7096f.web.app/">Live Site</a></button>
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/professional-portfolio">Git Repo</a></button>
+          </div>
+        </div>
+      </div>
+      <div className="projects-container">
+        <div className='card'>
+          <img src={alog} alt="screenshot" />
+          <h2>Custom Encryption Algorithm</h2>
+          <div className="color-bar"></div>
+          <p>This is essentially a static blog article that demonstrates a custom encryption algorithm that I created to practice array methods. It takes a simple message and converts the letters to decimal numbers. The decimal numbers are then converted to base three notation rendering an encrypted state. The process is then reversed returning the orginal message.</p>
+          <div className="btn-container">
+            <button className='card-btn'> <a href="https://encryption-blog-page.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/quaternary-encryption-algo">Git Repo</a></button>
+          </div>
+        </div> 
+        <div className='card'>
+          <img src={memory} alt="screenshot" />
+          <h2>Memory Game</h2>
+          <div className="color-bar"></div>
+          <p>This is a single-page React application, which is hosted on GitHub.It incorporates responsice design. It's a memory game where the player clicks each card once. If the player clicks the same card twice the number of uniques clicks is compared to the all-time highest unique clicks. And if that players number is greater the new high score is displayed on the screen.</p>
+          <div className="btn-container">
+            <button className='card-btn'><a href="https://memory-game-1f43b.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/memory-card-react-app">Git Repo</a></button>
           </div>
         </div>
       </div>
