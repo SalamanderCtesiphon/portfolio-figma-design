@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import resume from '../assests/images/shannonresume.pdf'
+import resume from '../assests/images/ShannonBrookshire.pdf'
 
 function Hero() {
   return (
