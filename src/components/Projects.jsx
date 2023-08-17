@@ -5,6 +5,7 @@ import coffee from '../assests/images/coffee-site.png'
 import memory from '../assests/images/memory-game.png'
 import landingPage from '../assests/images/landing-page-screenshot.png'
 import alog from '../assests/images/cypher-blog.png'
+import resume from '../assests/images/resume-editor.png'
 
 function Projects() {
   return (
@@ -15,7 +16,7 @@ function Projects() {
           <img id='rest' src={landingPage} alt="screenshot" />
           <h2>Figma Design Landing Page</h2>
           <div className="color-bar"></div>
-          <p>This is a single page informational landing page for a hypothetical business. It was created from a Figma design. And it utilizes advanced vanilla CSS for styling. The site is hosted on Firebase webhosting.</p>
+          <p>This is a static informational landing page for a hypothetical business. It was created from a Figma design. And it utilizes advanced vanilla CSS for styling. The site is hosted on Firebase webhosting. It demonstrates my ability to implement a website from design files.</p>
           <div className="btn-container">
             <button className='card-btn'><a href="https://landing-page-1059a.web.app/">Live Site</a></button>
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/landing-pager-figma-design">Git Repo</a></button>
@@ -44,13 +45,13 @@ function Projects() {
           </div>
         </div> 
         <div className='card'>
-          <img src={memory} alt="screenshot" />
-          <h2>Memory Game</h2>
+          <img src={resume} alt="screenshot" />
+          <h2>Resume Editor</h2>
           <div className="color-bar"></div>
-          <p>This is a single-page React application, which is hosted on GitHub.It incorporates responsice design. It's a memory game where the player clicks each card once. If the player clicks the same card twice the number of uniques clicks is compared to the all-time highest unique clicks. And if that players number is greater the new high score is displayed on the screen.</p>
+          <p>This is a static React application, which is hosted on Firebase. It demonstrates conditional page rendering with ReactJS. A sample resume is displaed on the page and the user can edit any field on the resume with the results updating on the screen in real-time.</p>
           <div className="btn-container">
-            <button className='card-btn'><a href="https://memory-game-1f43b.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/memory-card-react-app">Git Repo</a></button>
+            <button className='card-btn'><a href="https://resume-editor-cfc94.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/resume-editor">Git Repo</a></button>
           </div>
         </div>
       </div>
