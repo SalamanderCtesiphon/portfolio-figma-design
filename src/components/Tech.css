@@ -1,7 +1,6 @@
 .tech-section {
-  min-height: 100vh;
   margin-top: 100px;
-  height: auto;
+  height: 1000px;
   width: 100%;
   display: flex;
   flex-direction: column;
