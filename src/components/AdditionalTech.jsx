@@ -10,6 +10,10 @@ function AdditionalTech() {
         <li>Git VCS</li>
         <li>WordPress</li>
         <li>Asynchronous Code</li>
+        <li>MongoDB</li>
+        <li>Mongoose</li>
+        <li>TypeScript</li>
+        <li>Tailwind CSS</li>
       </ul>
     </section>
   )
