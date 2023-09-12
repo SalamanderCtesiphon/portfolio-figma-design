@@ -8,10 +8,10 @@ function About() {
       <div className="group20">
         <div className="line-box">
           <div className="dates">
-            <p>2020</p>
-            <p>2021</p>
-            <p>2022</p>
-            <p>2023</p>
+            <p>1965</p>
+            <p>1974</p>
+            <p>1984</p>
+            <p>1995</p>
           </div>
           <div id="time-line">
             <div className="bullets"></div>
@@ -21,10 +21,10 @@ function About() {
           </div>
         </div>
         <div className="text-columns">
-          <p>Became interested in tech. Began learing 6502 assembly. Set up my Git Hub profile. Studied fundamental computer science concepts.</p>
-          <p>Became interested in learning to code, specificly. Started to learn Python, while coding games utilzing the pygame library.</p>
-          <p>Began my serious journey towards learning web developement. Started to work through the Odin Project curriculum </p>
-          <p>Completed the Odin Projects' front end lessons and began looking for a job. Began contributing to open-source and free-lancing on upwork.</p>
+          <p>Two computers at MIT Lincoln Lab communicate with one another using packet-switching technology.</p>
+          <p>The first Internet Service Provider (ISP) is born with the introduction of a commercial version of ARPANET, known as Telenet.</p>
+          <p>William Gibson, author of "Neuromancer," is the first to use the term "cyberspace."</p>
+          <p>Brnedan Eich created JavaScript. This is widely regarded as a mistake.</p>
         </div>
       </div>
     </section>
