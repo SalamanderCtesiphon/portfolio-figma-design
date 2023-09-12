@@ -6,6 +6,7 @@ import memory from '../assests/images/memory-game.png'
 import landingPage from '../assests/images/landing-page-screenshot.png'
 import alog from '../assests/images/cypher-blog.png'
 import resume from '../assests/images/resume-editor.png'
+import weather from '../assests/images/weatherAppScreenShot.png'
 
 function Projects() {
   return (
@@ -23,35 +24,13 @@ function Projects() {
           </div>
         </div> 
         <div className='card'>
-          <img src={portfolio} alt="screenshot" />
-          <h2>Previous Portfolio</h2>
+          <img src={weather} alt="screenshot" />
+          <h2>Weather App</h2>
           <div className="color-bar"></div>
-          <p>This is my previous portfolio, that I built from scratch using ReactJS. It uses many custom animations and transformations. It is hosted on firebase hosting and I think it demonstrates my skills with vanilla CSS. And my ability to deploy a fully functional website while utilizing version control and industry standard best-practices.</p>
+          <p>This is a static website built with javascript and css. It utilizes web api calls with promised-based asynchronous javascript fetch requests. It incorporates responsive design and is loosely styled from a figma design file. The site is hosted on firebase webhosting. Other skills required for this site are working with and parsing JSON and rendering list dynamically with javascript array methods.</p>
           <div className="btn-container">
-            <button className='card-btn'><a href="https://professional-portfolio-7096f.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/professional-portfolio">Git Repo</a></button>
-          </div>
-        </div>
-      </div>
-      <div className="projects-container">
-        <div className='card'>
-          <img src={alog} alt="screenshot" />
-          <h2>Custom Encryption Algorithm</h2>
-          <div className="color-bar"></div>
-          <p>This is essentially a static blog article that demonstrates a custom encryption algorithm that I created to practice array methods. It takes a simple message and converts the letters to decimal numbers. The decimal numbers are then converted to base three notation rendering an encrypted state. The process is then reversed returning the orginal message.</p>
-          <div className="btn-container">
-            <button className='card-btn'> <a href="https://encryption-blog-page.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/quaternary-encryption-algo">Git Repo</a></button>
-          </div>
-        </div> 
-        <div className='card'>
-          <img src={resume} alt="screenshot" />
-          <h2>Resume Editor</h2>
-          <div className="color-bar"></div>
-          <p>This is a static React application, which is hosted on Firebase. It demonstrates conditional page rendering with ReactJS. A sample resume is displaed on the page and the user can edit any field on the resume with the results updating on the screen in real-time.</p>
-          <div className="btn-container">
-            <button className='card-btn'><a href="https://resume-editor-cfc94.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/resume-editor">Git Repo</a></button>
+            <button className='card-btn'><a href="https://theweatherapp-d677a.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/not-another-weather-app-noooo">Git Repo</a></button>
           </div>
         </div>
       </div>
@@ -65,17 +44,20 @@ function Projects() {
             <button className='card-btn'> <a href="https://coffee-importers-bb881.web.app/">Live Site</a></button>
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/coffee-importers">Git Repo</a></button>
           </div>
-        </div> 
-        <div className='card'>
-          <img src={memory} alt="screenshot" />
-          <h2>Memory Game</h2>
-          <div className="color-bar"></div>
-          <p>This is a single-page React application, which is hosted on GitHub.It incorporates responsice design. It's a memory game where the player clicks each card once. If the player clicks the same card twice the number of uniques clicks is compared to the all-time highest unique clicks. And if that players number is greater the new high score is displayed on the screen.</p>
-          <div className="btn-container">
-            <button className='card-btn'><a href="https://memory-game-1f43b.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/memory-card-react-app">Git Repo</a></button>
-          </div>
         </div>
+        <div className='card'>
+          <img src={portfolio} alt="screenshot" />
+          <h2>Previous Portfolio</h2>
+          <div className="color-bar"></div>
+          <p>This is my previous portfolio, that I built from scratch using ReactJS. It uses many custom animations and transformations. It is hosted on firebase hosting and I think it demonstrates my skills with vanilla CSS. And my ability to deploy a fully functional website while utilizing version control and industry standard best-practices.</p>
+          <div className="btn-container">
+            <button className='card-btn'><a href="https://professional-portfolio-7096f.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/professional-portfolio">Git Repo</a></button>
+          </div>
+        </div> 
+      </div>
+      <div className="projects-container">
+        
       </div>
     </section>
   )
