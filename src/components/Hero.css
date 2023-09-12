@@ -77,6 +77,11 @@ section {
   justify-content: space-between;
   width: 60%;
 }
+@media (max-width: 600px) {
+  .button-holder {
+    width: 80vw;
+  }
+}
 
 .resume-btn {
   display: flex;
