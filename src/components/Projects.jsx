@@ -2,10 +2,7 @@ import React from 'react'
 import './Projects.css'
 import portfolio from '../assests/images/portfolio.png'
 import coffee from '../assests/images/coffee-site.png'
-import memory from '../assests/images/memory-game.png'
 import landingPage from '../assests/images/landing-page-screenshot.png'
-import alog from '../assests/images/cypher-blog.png'
-import resume from '../assests/images/resume-editor.png'
 import weather from '../assests/images/weatherAppScreenShot.png'
 
 function Projects() {
