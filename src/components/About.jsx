@@ -24,7 +24,7 @@ function About() {
           <p>Two computers at MIT Lincoln Lab communicate with one another using packet-switching technology.</p>
           <p>The first Internet Service Provider (ISP) is born with the introduction of a commercial version of ARPANET, known as Telenet.</p>
           <p>William Gibson, author of "Neuromancer," is the first to use the term "cyberspace."</p>
-          <p>Brnedan Eich created JavaScript. This is widely regarded as a mistake.</p>
+          <p>Brendan Eich created JavaScript. This is widely regarded as a mistake.</p>
         </div>
       </div>
     </section>
