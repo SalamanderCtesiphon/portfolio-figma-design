@@ -4,6 +4,7 @@ import portfolio from '../assests/images/portfolio.png'
 import coffee from '../assests/images/coffee-site.png'
 import landingPage from '../assests/images/landing-page-screenshot.png'
 import weather from '../assests/images/weatherAppScreenShot.png'
+import blog from '../assests/images/blogapp.png'
 
 function Projects() {
   return (
@@ -30,6 +31,28 @@ function Projects() {
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/not-another-weather-app-noooo">Git Repo</a></button>
           </div>
         </div>
+      </div>
+      <div className="projects-container">
+        <div className='card'>
+          <img src={blog} alt="screenshot" />
+          <h2>Blog CMS Application</h2>
+          <div className="color-bar"></div>
+          <p>This a full-stack web application built using NextJS with TypeScript and TailwindCSS. It is hosted on Vercel. It is a blog CMS application that uses NodeJS file system methods to render a list of blog article links. Dynamic routes are automatically generated and the appropriate blog article is displayed to the user. This app makes use of performance optimizations availible in NextJS.</p>
+          <div className="btn-container">
+            <button className='card-btn'> <a href="https://davegraynextjstutoriallesson06.vercel.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/davegraynextjstutoriallesson06">Git Repo</a></button>
+          </div>
+        </div>
+        <div className='card'>
+          <img src={portfolio} alt="screenshot" />
+          <h2>Previous Portfolio</h2>
+          <div className="color-bar"></div>
+          <p>This is my previous portfolio, that I built from scratch using ReactJS. It uses many custom animations and transformations. It is hosted on firebase hosting and I think it demonstrates my skills with vanilla CSS. And my ability to deploy a fully functional website while utilizing version control and industry standard best-practices.</p>
+          <div className="btn-container">
+            <button className='card-btn'><a href="https://professional-portfolio-7096f.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/professional-portfolio">Git Repo</a></button>
+          </div>
+        </div> 
       </div>
       <div className="projects-container">
         <div className='card'>
