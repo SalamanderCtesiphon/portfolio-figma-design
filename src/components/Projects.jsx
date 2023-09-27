@@ -5,6 +5,7 @@ import coffee from '../assests/images/coffee-site.png'
 import landingPage from '../assests/images/landing-page-screenshot.png'
 import weather from '../assests/images/weatherAppScreenShot.png'
 import blog from '../assests/images/blogapp.png'
+import memoryGame from '../assests/images/memory-game.png'
 
 function Projects() {
   return (
@@ -44,13 +45,13 @@ function Projects() {
           </div>
         </div>
         <div className='card'>
-          <img src={portfolio} alt="screenshot" />
-          <h2>Previous Portfolio</h2>
+          <img src={memoryGame} alt="screenshot" />
+          <h2>Memory Game</h2>
           <div className="color-bar"></div>
-          <p>This is my previous portfolio, that I built from scratch using ReactJS. It uses many custom animations and transformations. It is hosted on firebase hosting and I think it demonstrates my skills with vanilla CSS. And my ability to deploy a fully functional website while utilizing version control and industry standard best-practices.</p>
+          <p>This is a React Application that tests the user's memory skills. A set of cards are shuffled and then displayed on the screen.The player chooses cards until the same card is selected twice. Every time the player selects a card the scroreboard keeps track of the number of successful selections. When a player chooses the same card twice the game is over. The high score for all aattempts is displayed.</p>
           <div className="btn-container">
-            <button className='card-btn'><a href="https://professional-portfolio-7096f.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/professional-portfolio">Git Repo</a></button>
+            <button className='card-btn'><a href="https://memory-game-1f43b.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/memory-game">Git Repo</a></button>
           </div>
         </div> 
       </div>
