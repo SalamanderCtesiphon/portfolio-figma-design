@@ -68,7 +68,7 @@ function Tech() {
         </div>
         <div className="group">
           <div className="text-box">
-            <p className='skill-title'>Node JS</p>
+            <p className='skill-title'>NodeJS</p>
             <p className='skill-level'>Intermediate</p>
           </div>
           <div className="bars">
@@ -78,12 +78,22 @@ function Tech() {
         </div>
         <div className="group">
           <div className="text-box">
-            <p className='skill-title'>Express JS</p>
+            <p className='skill-title'>ExpressJS</p>
             <p className='skill-level'>Novice</p>
           </div>
           <div className="bars">
             <div className="rect1"></div>
             <div className="rect3"></div>
+          </div>
+        </div>
+        <div className="group">
+          <div className="text-box">
+            <p className='skill-title'>NextJS</p>
+            <p className='skill-level'>Intermediate</p>
+          </div>
+          <div className="bars">
+            <div className="rect1"></div>
+            <div className="rect4"></div>
           </div>
         </div>
       </div>
