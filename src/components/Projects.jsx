@@ -5,7 +5,7 @@ import coffee from '../assests/images/coffee-site.png'
 import landingPage from '../assests/images/landing-page-screenshot.png'
 import weather from '../assests/images/weatherAppScreenShot.png'
 import blog from '../assests/images/blogapp.png'
-import memoryGame from '../assests/images/memory-game.png'
+import continuum from '../assests/images/continuumScreenshot.png'
 
 function Projects() {
   return (
@@ -13,13 +13,13 @@ function Projects() {
       <h1>Projects</h1>
       <div className="projects-container">
       <div className='card'>
-          <img id='rest' src={landingPage} alt="screenshot" />
-          <h2>Figma Design Landing Page</h2>
+          <img id='rest' src={continuum} alt="screenshot" />
+          <h2>Social Media Applicaton</h2>
           <div className="color-bar"></div>
-          <p>This is a static informational landing page for a hypothetical business. It was created from a Figma design. And it utilizes advanced vanilla CSS for styling. The site is hosted on Firebase webhosting. It demonstrates my ability to implement a website from design files.</p>
+          <p>This is a Next.js full-stack application, that is very similar to Twitter. The applicion allows a user to sigh-up and create a profile. The user can then post new threads, comment on existing threads, create groups and send email invitations to the groups. This app makes use of many great third-party services. Including Clerk.com, Uploadthing.com as well as MongoDB for the database.</p>
           <div className="btn-container">
-            <button className='card-btn'><a href="https://landing-page-1059a.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/landing-pager-figma-design">Git Repo</a></button>
+            <button className='card-btn'><a href="https://threads-clone-mu-inky.vercel.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/threads-clone">Git Repo</a></button>
           </div>
         </div> 
         <div className='card'>
@@ -45,13 +45,13 @@ function Projects() {
           </div>
         </div>
         <div className='card'>
-          <img src={memoryGame} alt="screenshot" />
-          <h2>Memory Game</h2>
+          <img id='rest' src={landingPage} alt="screenshot" />
+          <h2>Figma Design Landing Page</h2>
           <div className="color-bar"></div>
-          <p>This is a React Application that tests the user's memory skills. A set of cards are shuffled and then displayed on the screen.The player chooses cards until the same card is selected twice. Every time the player selects a card the scroreboard keeps track of the number of successful selections. When a player chooses the same card twice the game is over. The high score for all aattempts is displayed.</p>
+          <p>This is a static informational landing page for a hypothetical business. It was created from a Figma design. And it utilizes advanced vanilla CSS for styling. The site is hosted on Firebase webhosting. It demonstrates my ability to implement a website from design files.</p>
           <div className="btn-container">
-            <button className='card-btn'><a href="https://memory-game-1f43b.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/memory-game">Git Repo</a></button>
+            <button className='card-btn'><a href="https://landing-page-1059a.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/landing-pager-figma-design">Git Repo</a></button>
           </div>
         </div> 
       </div>
