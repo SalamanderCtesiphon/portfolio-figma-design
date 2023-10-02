@@ -23,18 +23,6 @@ function Projects() {
           </div>
         </div> 
         <div className='card'>
-          <img src={weather} alt="screenshot" />
-          <h2>Weather App</h2>
-          <div className="color-bar"></div>
-          <p>This is a static website built with javascript and css. It utilizes web api calls with promised-based asynchronous javascript fetch requests. It incorporates responsive design and is loosely styled from a figma design file. The site is hosted on firebase webhosting. Other skills required for this site are working with and parsing JSON and rendering list dynamically with javascript array methods.</p>
-          <div className="btn-container">
-            <button className='card-btn'><a href="https://theweatherapp-d677a.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/not-another-weather-app-noooo">Git Repo</a></button>
-          </div>
-        </div>
-      </div>
-      <div className="projects-container">
-        <div className='card'>
           <img src={blog} alt="screenshot" />
           <h2>Blog CMS Application</h2>
           <div className="color-bar"></div>
@@ -44,16 +32,6 @@ function Projects() {
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/davegraynextjstutoriallesson06">Git Repo</a></button>
           </div>
         </div>
-        <div className='card'>
-          <img id='rest' src={landingPage} alt="screenshot" />
-          <h2>Figma Design Landing Page</h2>
-          <div className="color-bar"></div>
-          <p>This is a static informational landing page for a hypothetical business. It was created from a Figma design. And it utilizes advanced vanilla CSS for styling. The site is hosted on Firebase webhosting. It demonstrates my ability to implement a website from design files.</p>
-          <div className="btn-container">
-            <button className='card-btn'><a href="https://landing-page-1059a.web.app/">Live Site</a></button>
-            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/landing-pager-figma-design">Git Repo</a></button>
-          </div>
-        </div> 
       </div>
       <div className="projects-container">
         <div className='card'>
@@ -66,6 +44,28 @@ function Projects() {
             <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/coffee-importers">Git Repo</a></button>
           </div>
         </div>
+        <div className='card'>
+          <img src={weather} alt="screenshot" />
+          <h2>Weather App</h2>
+          <div className="color-bar"></div>
+          <p>This is a static website built with javascript and css. It utilizes web api calls with promised-based asynchronous javascript fetch requests. It incorporates responsive design and is loosely styled from a figma design file. The site is hosted on firebase webhosting. Other skills required for this site are working with and parsing JSON and rendering list dynamically with javascript array methods.</p>
+          <div className="btn-container">
+            <button className='card-btn'><a href="https://theweatherapp-d677a.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/not-another-weather-app-noooo">Git Repo</a></button>
+          </div>
+        </div>
+      </div>
+      <div className="projects-container">
+      <div className='card'>
+          <img id='rest' src={landingPage} alt="screenshot" />
+          <h2>Figma Design Landing Page</h2>
+          <div className="color-bar"></div>
+          <p>This is a static informational landing page for a hypothetical business. It was created from a Figma design. And it utilizes advanced vanilla CSS for styling. The site is hosted on Firebase webhosting. It demonstrates my ability to implement a website from design files.</p>
+          <div className="btn-container">
+            <button className='card-btn'><a href="https://landing-page-1059a.web.app/">Live Site</a></button>
+            <button className='card-btn'><a href="https://github.com/SalamanderCtesiphon/landing-pager-figma-design">Git Repo</a></button>
+          </div>
+        </div> 
         <div className='card'>
           <img src={portfolio} alt="screenshot" />
           <h2>Previous Portfolio</h2>
